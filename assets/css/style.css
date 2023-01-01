@@ -1,0 +1,36 @@
+:root{
+  --color-main: #ED1C24;
+  --color-footer: #670508;
+  --color-black: #221112;
+  --padding-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+*{
+  box-sizing: border-box;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+h1,
+h2{
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+h1{
+  font-size: 1.37rem;
+  font-weight: 900;
+}
+p{
+  line-height: 1.62em;
+}
+strong{
+  font-weight: 900;
+}
+
+@media (min-width: 992px){
+  :root{
+    --padding-size: 15px;
+    font-size: 20px;
+  }
+}
