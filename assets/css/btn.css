@@ -10,9 +10,26 @@
   box-shadow: 0px 8px 14px rgba(0, 0, 0, 0.4);
 
   font-weight: 900;
-
   text-align: center;
 }
 .btn:hover{
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4);
+}
+.btn-red{
+  display: block;
+  font-weight: 900;
+  line-height: 2.25;
+  text-align: center;
+  color: white;
+  background-color:var(--color-main);
+  padding: 0.5rem;
+  border-radius: 70px;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .btn-red{
+    font-size: 1.37rem;
+    padding: 1.37rem 1.87rem ;
+  }
 }
