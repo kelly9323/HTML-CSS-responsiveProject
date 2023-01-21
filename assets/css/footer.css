@@ -1,9 +1,9 @@
-footer{
+footer {
   background-color: var(--color-footer);
   text-align: center;
   color: white;
 }
-.footer-wrapper{
+.footer-wrapper {
   margin: auto;
   padding: 75px 0 65px;
   max-width: 252px;
@@ -13,45 +13,49 @@ footer{
   align-items: center;
   justify-content: center;
 }
-.site-address>h2{
-font-family: 'Montserrat', sans-serif;
-font-size: 2rem;
-color: white;
-line-height: 2.5;
+.site-address > h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: white;
+  line-height: 2.5;
 }
-.site-address>p{
-margin-bottom:calc(var(--padding-size) * 4) ;
+.site-address > p {
+  margin-bottom: calc(var(--padding-size) * 4);
 }
-.phone>a{
-font-size: 1.62rem;
-font-weight: 700;
-line-height: 1.92;
+.phone > a {
+  font-size: 1.62rem;
+  font-weight: 700;
+  line-height: 1.92;
 }
-.footer-p{
-  opacity: 40%;
+.footer-p {
   font-size: 0.75rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.40);
+  border-top: 1px solid rgba(255, 255, 255, 0.303);
   padding: 20px;
 }
 
-@media (min-width: 576px){
-  .footer-wrapper{
-  max-width: none;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 62%;
-}
-.site-address>h2{
-  font-size: 3.9rem;
-  text-align: left;
-}
-.site-address>p{
-  font-size: 1.62rem;
-  max-width: 370px;
-  text-align: left;
-}
-.phone>a{
-font-size: 3.25rem;
-line-height: 1.2;
-}
+@media (min-width: 992px) {
+  .footer-wrapper {
+    max-width: none;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 62%;
+  }
+
+  .site-address > h2 {
+    font-size: 3rem;
+    text-align: left;
+  }
+  .site-address > p {
+    font-size: 1.4rem;
+    max-width: 370px;
+    text-align: left;
+  }
+  .phone > a {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+  .footer-p {
+    font-size: 1rem;
+    text-align: center;
+  }
 }

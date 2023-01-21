@@ -107,6 +107,7 @@ h3.city-heading{
 .make__gift{
   padding: 20rem 0 3.75rem;
   height: 100%;
+  background-color:var(--color-main);
   background-image: url(./../images/bg-images/bg-make-gift-mb.png);
   background-repeat:no-repeat;
 }
@@ -200,10 +201,11 @@ h4.heading-certificate{
 form{
   display: flex;
   flex-direction: column;
+  
 }
 form>input{
   padding: 18px 20px;
-  border-radius:35px;
+  border-radius:70px;
   border:0;
   margin-bottom:calc(var(--padding-size) * 3) ;
   color: #221112;
@@ -221,11 +223,12 @@ form>input{
 
 
 
-@media (min-width: 576px) {
+@media (min-width: 992px) {
   .title {
     min-height: 600px;
     background-image: url(./../images/bg-images/bg-title-dt.png);
     background-size: cover;
+    width: 100%;
   }
   div.wrapper__title_main {
     max-width: 1170px;
@@ -323,6 +326,7 @@ display: block;
 .flex-container > p {
  font-size: 1.25rem;
  max-width: 270px;
+ margin-right: 15px;
 }
 .block-description>a{
   margin-top: 5.75rem;
@@ -437,17 +441,18 @@ line-height: 1.75;
 form{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
-form>input{
+form>input, .submit-button{
   margin-bottom: 0;
-  min-width: 270px;
+  padding: 20px;
+  margin-left: 10px;
+
 }
-input, .submit-button{
-padding: 22px 30px;
-}
+
 .submit-button{
   font-size: 1.37rem;
 }
+
 
 }
