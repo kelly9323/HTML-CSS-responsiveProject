@@ -26,10 +26,3 @@
   border-radius: 70px;
   width: 100%;
 }
-
-@media (min-width: 576px) {
-  .btn-red{
-    font-size: 1.37rem;
-    padding: 1.37rem 1.87rem ;
-  }
-}
